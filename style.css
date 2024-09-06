@@ -1,0 +1,83 @@
+body {
+    background-color: #c4c4c4;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    background-color: #f5f5f5;
+}
+.container h1 {
+    margin: 0 auto;
+    font-size: 26px;
+    width: fit-content;
+    padding: 15px 0;
+    color: #0075ff;
+    font-weight: 500;
+}
+.container .password {
+    width: fit-content;
+    padding: 10px 0;
+    margin: auto;
+}
+.container #password {
+    width: 500px;
+    height: 32px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.container .options {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+@media (max-width: 600px) {
+    .container #password {
+        width: 370px;
+    }
+    .container .options {
+        width: 370px;
+    }
+}
+@media (max-width: 450px) {
+    .container #password {
+        width: 275px;
+    }
+    .container .options {
+        width: 275px;
+    }
+}
+@media (max-width: 350px) {
+    .container #password {
+        width: 250px;
+    }
+    .container .options {
+        width: 250px;
+    }
+}
+.container .field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.container .generate {
+    display: block;
+    margin: 0 auto;
+    background-color: #0075ffc2;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container .generate:hover {
+    background-color: #0075ff;
+    transition: 0.3s;
+}
