@@ -1,4 +1,5 @@
 Page links:
+----------------
 On GitHub:
 https://dinaxhtml.github.io/Password-Generator/
 ----------------
